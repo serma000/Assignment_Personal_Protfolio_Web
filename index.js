@@ -5,7 +5,7 @@ const app = express();
 // Serve static files from the 'node_modules' directory
 app.use('/node_modules', express.static(__dirname + '/node_modules'));
 
-app.use(express.static(path.join(__dirname,'public')))
+app.use('/public',express.static(path.join(__dirname + '/public')));
 
 app.set("view engine","ejs");
 
@@ -24,6 +24,7 @@ app.get('/pdf', (req, res) => {
     const pdfFilePath = path.join(__dirname, 'public', 'resume.pdf');
     res.sendFile(pdfFilePath);
 });
+
 app.get("/contactEJS", (req, res)=> {
     res.render("pages/contact", {   
 });

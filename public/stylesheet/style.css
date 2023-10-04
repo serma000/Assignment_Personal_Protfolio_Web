@@ -4,6 +4,3 @@
     transform: translateY(-50%); /* Correct for the element's own height */
     left: 10px; /* Adjust the left position as needed */
 }
-#wholebody{
-    background-color:rgb(217, 20, 20);
-}
