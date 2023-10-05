@@ -9,7 +9,7 @@ app.use('/public',express.static(path.join(__dirname + '/public')));
 
 app.set("view engine","ejs");
 
-app.get("/",(req,res)=>{
+app.get("/homeEJS",(req,res)=>{
 
     res.render("pages/home");
 });
@@ -34,7 +34,7 @@ app.get("/projectEJS", (req, res)=> {
 });
 });
 app.get("/serviceEJS", (req, res)=> {
-    res.render("pages/serivce", {   
+    res.render("pages/service", {   
 });
 });
 
