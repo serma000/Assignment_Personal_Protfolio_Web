@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
+    
+    <script src="node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
+    <script>
+        function alert() {
+            alert('Submitted!');
+        }
+    </script>
+  </head>
+  <body class="p-3 mb-2 bg-secondary text-white">
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarNav" style="text-align: center; display:inline-block;">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="home">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projectEJS">PROJECT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="serviceEJS">SERVICE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactEJS">CONTACT ME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutEJS">ABOUT ME</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    </div>
+    
+        <h2 style="font-family:Georgia, 'Times New Roman', Times, serif; color:aliceblue; font-weight:20px; text-align:center;">SUBMIT A REQUEST</h2>
+        <hr>
+        <div class="container" style="background-color: #808a93; border-radius:20px;">
+            <form action="mailto:dikshyashermalimbu2233@gmail.com" method="post">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="label" >First Name </td>
+                            <td>
+                                <input name="fname" size="50" tabindex="1" type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label">Last Name </td>
+                            <td>
+                                <input name="lname" size="50" tabindex="2" type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label">Middle Name </td>
+                            <td>
+                                <input name="mname" size="50" tabindex="3" type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label">Email </td>
+                            <td>
+                                <input name="email"  tabindex="4" type="email" placeholder="example@gmail.com">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label">Comment </td>
+                            <td>
+                                <textarea row="200" cols="70" tabindex="5"></textarea>
+                            </td>            
+                    </tbody>
+                </table>
+                <fieldset><input name="submit" tabindex="6" type="button" value="submit" style="float:right; border-radius:5px;" onclick="alert()"></fieldset>
+
+            </form>
+
+        </div>
+    
+  </body>
+</html>

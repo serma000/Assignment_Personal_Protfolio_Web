@@ -1,0 +1,6 @@
+.centered-element {
+    position: absolute; /* Position absolutely within its containing element */
+    top: 50%; /* Move the element down by 50% of its container's height */
+    transform: translateY(-50%); /* Correct for the element's own height */
+    left: 10px; /* Adjust the left position as needed */
+}
