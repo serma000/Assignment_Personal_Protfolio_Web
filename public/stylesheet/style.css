@@ -1,6 +1,40 @@
+/*
+  File name: style.css
+  Student Name: Dikshya Sherma Limbu
+  Student ID: 301273555
+  Date: 2023-10-04
+*/
 .centered-element {
     position: absolute; /* Position absolutely within its containing element */
     top: 50%; /* Move the element down by 50% of its container's height */
     transform: translateY(-50%); /* Correct for the element's own height */
     left: 10px; /* Adjust the left position as needed */
 }
+h4{
+    text-align:center;  font-weight: 15px; font-family: cursive;
+}
+h2{
+    
+    font-family:Georgia, 'Times New Roman', Times, serif; color:aliceblue; font-weight:20px; text-align:center; text-decoration: underline;
+}
+.visual-search-icon {
+    position: absolute;
+    top: 10px; /* Adjust the top position as needed */
+    right: 10px; /* Adjust the right position as needed */
+    z-index: 1; /* Ensure the icon is above the image */
+  }
+  .project-container{
+    padding:20px; border-radius:10px; justify-content:center; text-align: center;
+  }
+  p{
+    font-family: cursive; 
+    text-align: center;
+    font-size: smaller;
+  }
+
+  /*style for images in service.ejs*/
+  .service-image{
+    box-shadow:10px 10px rgb(62, 59, 59); border-radius:10px;
+    width:400px;
+    height:400px;
+  }
